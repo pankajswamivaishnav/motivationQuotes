@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    height: 80vh;
+    width: 60vw;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+}
+
+#mainbox{
+  height: 60vh;
+  width: 40vw;
+  /* border: solid; */
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+}
+
+#quotes{
+    height:40vh;
+    /* border: solid; */
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:right;
+    position: relative;
+}
+
+#tweetMe{
+    display: flex;
+    justify-content: center;
+    animation: rot 1s linear ;
+    cursor: pointer;
+}
+
+@keyframes rot{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} 
+
+#creater{
+    height: 20vh;
+    /* border: solid; */
+    position: relative;    
+
+}
+
+#btn{
+    width: 100%;
+    height:30px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+
+#author{
+    font-size: medium;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pankaj{
+    width: 100%;
+    height:30px;
+    font-weight:700;
+    font-size:large;
+    color:black;
+    position:absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i{
+  position: absolute;
+  top:60px;
+  left: 20px;
+}
